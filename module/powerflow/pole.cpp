@@ -13,7 +13,7 @@
 //
 // Sync (bottom-up)
 //  - pole_mount    update moment accumulators
-//  - pole          (nop)
+//  - pole          no operation (nop)
 //
 // Postsync (top-down):
 //  - pole          calculate total moment and failure status
