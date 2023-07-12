@@ -24,6 +24,13 @@
 //  - pole_mount    finalize equipment status
 //
 
+/*
+The mathematical models for moments on the pole (the wind on, and the weight of the pole, mounted equipment, and conductors), 
+and the maximimum applied moment the pole can withstand come from this Pole Structural Loading guide:
+https://source.gridlabd.us/raw/master/module/powerflow/docs/pole_loading.pdf
+*/
+
+
 #include "powerflow.h"
 #include "math.h"
 #include <typeinfo>
